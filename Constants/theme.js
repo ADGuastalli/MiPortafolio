@@ -27,7 +27,7 @@ export const darkTheme = {
 export const lightTheme = {
   name: "light",
   body: "#bfd8ff",
-  text: "#002560",
+  text: "#010F48",
   subtext: "#003689",
   secondary: "#80b1ff",
   tertiary: "#bfd8ff",

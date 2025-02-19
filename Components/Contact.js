@@ -121,6 +121,7 @@ const Contact = ({ currentTheme }) => {
           </div>
         </Stack>
       </form>
+
       <div style={{ textAlign: "center", paddingTop: "0.5rem" }}>
         <Link
           href={`mailto:${
@@ -135,7 +136,6 @@ const Contact = ({ currentTheme }) => {
           style={{
             textAlign: "center",
             paddingTop: "0.2rem",
-            color: currentTheme.tertiary,
           }}
         >
           <Link

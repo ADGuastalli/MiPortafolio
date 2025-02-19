@@ -8,6 +8,9 @@ import PROJECT2_3 from "../styles/projects/Project2_3.png";
 import PROJECT3_1 from "../styles/projects/Project3_1.png";
 import PROJECT3_2 from "../styles/projects/Project3_2.png";
 import PROJECT3_3 from "../styles/projects/Project3_3.png";
+import PROJECT4_1 from "../styles/projects/Project4_1.png";
+import PROJECT4_2 from "../styles/projects/Project4_2.png";
+import PROJECT4_3 from "../styles/projects/Project4_3.png";
 
 // first 3 projects are visible on the homepage while all are visible on the work page.
 
@@ -22,6 +25,15 @@ export const projects = [
     projectLink: "", //deployed project link
     tech: ["Appsheet", "AppSript", "MySQL"], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
     photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
+  },
+  {
+    name: "Antiguo Porfolio", //project name
+    description:
+      "Mi antiguo portafolio fue un proyecto creado con Next.js, React, Tailwind CSS y TypeScript, diseñado para ser rápido, moderno y funcional. Utilicé Next.js para una navegación eficiente, React para una estructura modular, Tailwind CSS para estilizar con flexibilidad y TypeScript para mayor seguridad en el código. Su diseño era minimalista y responsivo, con animaciones sutiles para mejorar la experiencia de usuario, e incluía secciones bien organizadas para mostrar mis proyectos, habilidades y contacto. Ahora, este portafolio evoluciona en una nueva versión con un estilo dark y laggy, además de integrar un chatbot interactivo.", //project description
+    githubLink: "https://github.com/ADGuastalli/My-Portafolio", //github repo link
+    projectLink: "https://porfolio-guastalli-alexis.vercel.app/", //deployed project link
+    tech: ["NextJs", "Tailwind CSS", "TypeScript"], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
+    photo: [PROJECT4_1, PROJECT4_2, PROJECT4_3], //list of names of images from above imports.
   },
   {
     name: "CashIn Bot",

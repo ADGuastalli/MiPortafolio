@@ -46,6 +46,13 @@ const Navlinks = () => {
           </span>
         </Link>
       </div>
+      <div className={styles.navlinks}>
+        <Link href="https://drive.google.com/file/d/1Ysfntd9oMEts239dokCECR73PJIUNPjY/view?usp=sharing">
+          <span style={{ opacity: activeLink === "/blogs" ? "100%" : "80%" }}>
+            Descarga mi CV
+          </span>
+        </Link>
+      </div>
     </>
   );
 };

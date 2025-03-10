@@ -11,12 +11,24 @@ import PROJECT3_3 from "../styles/projects/Project3_3.png";
 import PROJECT4_1 from "../styles/projects/Project4_1.png";
 import PROJECT4_2 from "../styles/projects/Project4_2.png";
 import PROJECT4_3 from "../styles/projects/Project4_3.png";
+import PROJECT5_1 from "../styles/projects/Project5_1.png";
+import PROJECT5_2 from "../styles/projects/Project5_2.png";
+import PROJECT5_3 from "../styles/projects/Project5_3.png";
 
 // first 3 projects are visible on the homepage while all are visible on the work page.
 
 export const projects = [
   //leave the githublink field blank if it is a private repo or doent exist, alerts will take care of it
   //leave the projectlink field blank if it the project has not been deployed, alerts will take care of it
+  {
+    name: "HockeyStats Pro",
+    description:
+      "HockeyStats Pro es una aplicación web que permite a los usuarios acceder a estadísticas de hockey en tiempo real. La plataforma ofrece una amplia gama de funcionalidades, como la visualización de partidos en vivo, la consulta de resultados anteriores y la comparación de equipos y jugadores. Desarrollada utilizando tecnologías de vanguardia, como React, Next.js, Tailwind CSS y TypeScript, HockeyStats Pro garantiza una experiencia de usuario fluida y atractiva.",
+    githubLink: "",
+    projectLink: "https://hockey-statspro-demo.vercel.app/",
+    tech: ["Next.js", "PostgreSQL", "Express"],
+    photo: [PROJECT5_1, PROJECT5_2, PROJECT5_3],
+  },
   {
     name: "CRM", //project name
     description:

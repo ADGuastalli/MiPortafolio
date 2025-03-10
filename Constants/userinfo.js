@@ -91,7 +91,7 @@ export const userinfo = {
       en el mundo de las pruebas de calidad y aseguramiento de software.
       Desde desarrollar ciclos de pruebas hasta buscar y reportar
       errores, cada paso fue un desafío gratificante. Ejecutamos pruebas
-      de estrés en aplicaciones web y móviles, evaluando su rendimiento,
+      de estrés en aplicaciones web y móviles, uando su rendimiento,
       funcionalidad y SEO. Además, exploramos los diversos estados de
       los códigos de respuesta HTTP.`,
       },

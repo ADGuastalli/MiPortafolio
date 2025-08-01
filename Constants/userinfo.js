@@ -116,6 +116,14 @@ export const userinfo = {
     visible: true, //set this to false if you want to omit this section
     experienceList: [
       {
+        company: "Habitum", //company name eg.Microsoft
+        companylogo: "", //companylogo
+        position: "Automatizaciones", //post you held eg.Senior SDE
+        time: "Noviembre 2024 - Actual", //timespan
+        description:
+          "Automatizar la confirmación de pedidos en Trello una vez recibidas las proformas por parte de los distribuidores. Integrar y transferir automáticamente los costes a la tarjeta de gestión del pedido, permitiendo el control automatizado de márgenes y evitando pérdidas económicas. Desarrollar expresiones regulares (regex), asistido por inteligencia artificial, para extraer datos relevantes de correos electrónicos y proformas, facilitando su procesamiento y análisis.", //eg. spearheaded the graphics team in designing SASS product UIs
+      },
+      {
         company: "Orvitx", //company name eg.Microsoft
         companylogo: IMGORVITX, //companylogo
         position: "Full Stack", //post you held eg.Senior SDE
